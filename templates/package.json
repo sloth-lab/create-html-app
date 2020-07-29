@@ -4,10 +4,13 @@
   "description": "create-html-app",
   "main": "index.js",
   "scripts": {
-    "clean": "html-scripts clean",
-    "dev": "html-scripts dev",
-    "build": "html-scripts build"
+    "clean": "static-html-scripts clean",
+    "dev": "static-html-scripts dev",
+    "build": "static-html-scripts build"
   },
   "author": "Lee",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "static-html-scripts": "^1.0.1"
+  }
 }
