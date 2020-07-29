@@ -1,0 +1,13 @@
+{
+  "name": "create-html-app",
+  "version": "1.0.0",
+  "description": "create-html-app",
+  "main": "index.js",
+  "scripts": {
+    "clean": "html-scripts clean",
+    "dev": "html-scripts dev",
+    "build": "html-scripts build"
+  },
+  "author": "Lee",
+  "license": "MIT"
+}
